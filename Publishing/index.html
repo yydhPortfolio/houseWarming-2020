@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/app.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div id="mainHead">
+            <div id="logo"><a href="./index.html"><img src="./resources/birdHouseText2.png" alt="logo"></a></div>
+            <div id="centers">
+                <div id="mainMent">Good House. Good Life.</div>
+                <div id="navigate">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Housewarming</a>
+                        </li>
+                        <li>
+                            <a href="./store.html">Our Store</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Experts</a>
+                        </li>
+                        <li>
+                            <a href="#">Construction Estimate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="member">
+                <img src="./resources/people2.png" alt="member">
+                <div id="memberSec">
+                    <div id="register"><a href="#">회원가입</a></div>
+                    <hr style="border: solid 0.6px #000;">
+                    <div id="login"><a href="#">로그인</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 메인페이지 -->
+    <div id="container">
+        <!-- 비주얼 이미지 슬라이드 -->
+        <section id="imgSlide">
+            <div id="mainImgs">
+                <img src="./resources/couch-1835923_1920.jpg" alt="couchPic1">
+                <img src="./resources/kitchen-2165756_1920.jpg" alt="kitchen1">
+                <img src="./resources/window-3042834_1920.jpg" alt="window1">
+                <img src="./resources/kitchen-2165756_1920.jpg" alt="kitchen1">
+                <img src="./resources/couch-1835923_1920.jpg" alt="couchPic1">
+            </div>
+        </section>
+        <!-- 온라인 집들이 -->
+        <section id="houses">
+            <div id="houseMents" class="secMents">
+                <h1>Housewarming Party!</h1>
+                <p>온라인 집들이에 당신을 초대합니다!</p>
+            </div>
+            <div id="warmings">
+                <div id="warmingOne" class="warmGri">
+                    <div class="warmImgs">
+                        <img src="./resources/housewarming_party/1_before.jpg" alt="warmOneBe" class="beforeImg">
+                        <img src="./resources/housewarming_party/1_after.jpg" alt="warmOneAft" class="afterImg">
+                    </div>
+                    <div class="warmTex">
+                        <div class="stars">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <h1>4</h1>
+                        </div>
+                        <div class="warmUserId">user1 의 집</div>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div id="warmingTwo" class="warmGri">
+                    <div class="warmImgs">
+                        <img src="./resources/housewarming_party/2_before.jpg" alt="warmTwo" class="beforeImg">
+                        <img src="./resources/housewarming_party/2_after.jpg" alt="warmTwoAft" class="afterImg">
+                    </div>
+                    <div class="warmTex">
+                        <div class="stars">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <h1>3</h1>
+                        </div>
+                        <div class="warmUserId">user2의 집</div>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div id="warmingThree" class="warmGri">
+                    <div class="warmImgs">
+                        <img src="./resources/housewarming_party/4_before.jpg" alt="warmFour" class="beforeImg">
+                        <img src="./resources/housewarming_party/4_after.jpg" alt="warmFourAft" class="afterImg">
+                    </div>
+                    <div class="warmTex">
+                        <div class="stars">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                            <h1>2</h1>
+                        </div>
+                        <div class="warmUserId">user4의 집</div>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 전문가 -->
+        <section id="expert">
+            <div id="expertMents" class="secMents">
+                <h1>Best Experts</h1>
+            </div>
+            <div id="expertList">
+                <div id="expertOne" class="expertGri">
+                    <div class="flipCard">
+                        <li>
+                            <div class="front">
+                                <img src="./resources/specialist/specialist1.jpg" alt="expertPer">
+                            </div>
+                            <div class="back">
+                                <p class="morePlusBtn" title="Details">+</p>
+                                <div class="backCard">
+                                    <img src="./resources/birdHouse.png" alt="logo">
+                                    <div class="expertCardMent">
+                                        <p>Creat a dream</p>
+                                    </div>
+                                    <div class="expertInfo">
+                                        <div class="expertName">
+                                            <img src="./resources/people2.png" alt="">
+                                            <p>전문가1 <span>(specialist1)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <a href="#
+                    " class="moreBtn">More Info.</a>
+                </div>
+                <div id="expertTwo" class="expertGri">
+                    <div class="flipCard">
+                        <li>
+                            <div class="front">
+                                <img src="./resources/specialist/specialist2.jpg" alt="expertPer">
+                            </div>
+                            <div class="back">
+                                <p class="morePlusBtn" title="Details">+</p>
+                                <div class="backCard">
+                                    <img src="./resources/birdHouse.png" alt="logo">
+                                    <div class="expertCardMent">
+                                        <p>Creat a dream</p>
+                                    </div>
+                                    <div class="expertInfo">
+                                        <div class="expertName">
+                                            <img src="./resources/people2.png" alt="">
+                                            <p>전문가2 <span>(specialist2)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <a href="#
+                    " class="moreBtn">More Info.</a>
+                </div>
+                <div id="expertThree" class="expertGri">
+                    <div class="flipCard">
+                        <li>
+                            <div class="front">
+                                <img src="./resources/specialist/specialist3.jpg" alt="expertPer">
+                            </div>
+                            <div class="back">
+                                <p class="morePlusBtn" title="Details">+</p>
+                                <div class="backCard">
+                                    <img src="./resources/birdHouse.png" alt="logo">
+                                    <div class="expertCardMent">
+                                        <p>Creat a dream</p>
+                                    </div>
+                                    <div class="expertInfo">
+                                        <div class="expertName">
+                                            <img src="./resources/people2.png" alt="">
+                                            <p>전문가3 <span>(specialist3)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <a href="#
+                    " class="moreBtn">More Info.</a>
+                </div>
+                <div id="expertFour" class="expertGri">
+                    <div class="flipCard">
+                        <li>
+                            <div class="front">
+                                <img src="./resources/specialist/specialist4.jpg" alt="expertPer">
+                            </div>
+                            <div class="back">
+                                <p class="morePlusBtn" title="Details">+</p>
+                                <div class="backCard">
+                                    <img src="./resources/birdHouse.png" alt="logo">
+                                    <div class="expertCardMent">
+                                        <p>Creat a dream</p>
+                                    </div>
+                                    <div class="expertInfo">
+                                        <div class="expertName">
+                                            <img src="./resources/people2.png" alt="">
+                                            <p>전문가4 <span>(specialist4)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <a href="#
+                    " class="moreBtn">More Info.</a>
+                </div>
+            </div>
+        </section>
+        <!-- 전문가 시공 후기 -->
+        <section id="constReviews">
+            <div id="reviewMents" class="secMents">
+                <h1>Construction reviews</h1>
+                <p>최고의 시공을 받아본 사람들의 후기</p>
+            </div>
+            <div id="reviewLists">
+                <div id="reviewOne" class="reviewGri">
+                    <div class="reviewImg">
+                        <img src="./resources/brick-wall-1834784_1920.jpg" alt="review1">
+                    </div>
+                    <div class="reviewerTextss">
+                        <div class="reviewer reviewSecs">
+                            <img src="./resources/people2.png" alt="person">
+                            <p>박재현 <span>(park)</span></p>
+                        </div>
+                        <div class="expertName reviewSecs">
+                            <p>전문가2's Design <span>(specialist2)</span></p>
+                        </div>
+                        <br>
+                        <hr style="border: 1px solid #000">
+                        <div class="cost reviewSecs">\3,200,000</div>
+                        <div class="reviewText reviewSecs">"원하던 아이언맨 컨셉으로 너무 잘 꾸며주셨습니다!"</div>
+                        <div class="reviewScore reviewSecs">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div id="reviewTwo" class="reviewGri">
+                    <div class="reviewImg">
+                        <img src="./resources/livingroom-1032733_1280.jpg" alt="review1">
+                    </div>
+                    <div class="reviewerTextss">
+                        <div class="reviewer reviewSecs">
+                            <img src="./resources/people2.png" alt="person">
+                            <p>김정수 <span>(kim)</span></p>
+                        </div>
+                        <div class="expertName reviewSecs">
+                            <p>전문가4's Design <span>(specialist4)</span></p>
+                        </div>
+                        <br>
+                        <hr style="border: 1px solid #000">
+                        <div class="cost reviewSecs">\5,500,000</div>
+                        <div class="reviewText reviewSecs">"요구사항대로 부드러운 느낌을 잘 살려주셨습니다."</div>
+                        <div class="reviewScore reviewSecs">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3Dstar.png" alt="star">
+                            <img src="./resources/3DnoStar.png" alt="noStar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 푸터 -->
+        <footer>
+            Copyright (C) 2020 by MyHome Inc All Rights Reserved.
+        </footer>
+        <br>
+    </div>
+</body>
+
+</html>
